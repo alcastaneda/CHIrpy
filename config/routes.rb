@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   scope :api do
-    scope :subscribers do
-      post '/' => 'subscribers#create'
+    scope :users do
+      post '/' => 'users#create'
     end
   end
 
