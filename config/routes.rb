@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   scope :api do
     scope :users do
       post '/' => 'users#create'
+      put '/edit' => 'users#edit'
     end
   end
 
